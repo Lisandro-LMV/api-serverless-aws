@@ -1,0 +1,29 @@
+# --- Credenciales y secretos (NUNCA subir a GitHub) ---
+*.pem
+*.key
+.env
+.env.*
+credentials
+aws-credentials*
+*secret*
+*token*
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Editores ---
+.vscode/
+.idea/
+
+# --- Archivos temporales ---
+*.log
+*.tmp
