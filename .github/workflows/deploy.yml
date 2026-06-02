@@ -28,6 +28,6 @@ jobs:
         run: |
           zip funcion.zip lambda_function.py
           aws lambda update-function-code \
-            --function-name holaMundo \
+            --function-name holamundo \
             --zip-file fileb://funcion.zip \
             --region ap-southeast-2
